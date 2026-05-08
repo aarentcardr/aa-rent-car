@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AA Rent Car – Renta de Vehículos Premium · La Romana</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <!-- LOGO REPLACED: now a text/icon brand mark -->
+      <a href="#inicio" class="nav-logo nav-logo--text">
+        <span class="nav-brand-icon"><i class="fas fa-car"></i></span>
+        <span class="nav-brand-name">AA <span class="nav-brand-accent">Rent Car</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+        <li><a href="#vehiculos" class="nav-link">Vehículos</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <!-- PHONE NUMBER added to fill space -->
+      <a href="tel:+18299059714" class="nav-phone">
+        <i class="fas fa-phone"></i>
+        <span>829-905-9714</span>
+      </a>
+      <a href="https://wa.me/18299059714" target="_blank" class="btn-whatsapp nav-cta">
+        <i class="fab fa-whatsapp"></i>
+        <span>WhatsApp</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+
+    <!-- LEFT: text content -->
+    <div class="hero-content">
+      <div class="hero-badge fade-up">
+        <i class="fas fa-shield-halved"></i>
+        Calidad · Higiene · Seguridad
+      </div>
+      <h1 class="hero-title fade-up">
+        Renta de Vehículos<br />
+        <span class="text-gold">Premium</span>
+      </h1>
+      <p class="hero-subtitle fade-up">
+        Flota moderna en La Romana — autos y yipetas listos para ti,<br class="hide-sm" />
+        con servicio de primer nivel en cada kilómetro.
+      </p>
+      <div class="hero-actions fade-up">
+        <a href="#vehiculos" class="btn btn-primary">
+          <i class="fas fa-car"></i> Ver Vehículos
+        </a>
+        <a href="https://wa.me/18299059714" target="_blank" class="btn btn-outline">
+          <i class="fab fa-whatsapp"></i> Contáctanos
+        </a>
+      </div>
+      <div class="hero-stats fade-up">
+        <div class="stat">
+          <span class="stat-num">8<span class="gold">+</span></span>
+          <span class="stat-label">Vehículos disponibles</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">$45<span class="gold">+</span></span>
+          <span class="stat-label">Precio por día</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">24/7</span>
+          <span class="stat-label">Disponibilidad</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: hero car image -->
+    <div class="hero-visual fade-up">
+      <div class="hero-car-card">
+        <img
+          src="images/2022_Santa_Fe.jpeg"
+          alt="Hyundai Santa Fe — AA Rent Car"
+          class="hero-car-img"
+          onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=900&q=80'"
+        />
+        <div class="hero-car-pill">
+          <i class="fas fa-star"></i>
+          <span>Flota disponible ahora</span>
+        </div>
+      </div>
+      <!-- Floating price badge -->
+      <div class="hero-price-badge">
+        <span class="hpb-from">desde</span>
+        <span class="hpb-price">$45</span>
+        <span class="hpb-unit">/ día</span>
+      </div>
+    </div>
+
+    <a href="#vehiculos" class="hero-scroll-hint">
+      <span>Explorar</span>
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===================== BENEFITS ===================== -->
+  <section class="benefits" id="servicios">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">¿Por qué elegirnos?</span>
+        <h2 class="section-title">Ventajas <span class="text-gold">AA Rent Car</span></h2>
+        <p class="section-desc">Nos diferenciamos por brindar una experiencia completa, segura y sin preocupaciones.</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card reveal">
+          <div class="benefit-icon-wrap"><i class="fas fa-shield-halved"></i></div>
+          <h3>Seguridad Total</h3>
+          <p>Cada vehículo pasa por revisión técnica completa antes de ser entregado. Tu seguridad es nuestra prioridad.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon-wrap"><i class="fas fa-spray-can-sparkles"></i></div>
+          <h3>Vehículos Impecables</h3>
+          <p>Limpieza profunda y desinfección certificada en cada unidad. Higiene que se ve y se siente.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon-wrap"><i class="fas fa-clock"></i></div>
+          <h3>Disponibilidad 24/7</h3>
+          <p>Estamos disponibles las 24 horas, los 7 días de la semana. Tu reserva cuando la necesites.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon-wrap"><i class="fas fa-tags"></i></div>
+          <h3>Precios Competitivos</h3>
+          <p>Las mejores tarifas del mercado sin sacrificar calidad. Planes diarios, semanales y mensuales.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon-wrap"><i class="fas fa-headset"></i></div>
+          <h3>Soporte Inmediato</h3>
+          <p>Asistencia en carretera y soporte vía WhatsApp en todo momento. Nunca estás solo.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon-wrap"><i class="fas fa-map-location-dot"></i></div>
+          <h3>Entrega a Domicilio</h3>
+          <p>Llevamos el vehículo directamente a tu puerta o al aeropuerto. Comodidad absoluta.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== VEHICLES ===================== -->
+  <section class="vehicles" id="vehiculos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Nuestra Flota</span>
+        <h2 class="section-title">Vehículos <span class="text-gold">Disponibles</span></h2>
+        <p class="section-desc">Elige el modelo que mejor se adapte a tus necesidades y presupuesto.</p>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="filter-tabs reveal">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="auto">Autos</button>
+        <button class="filter-btn" data-filter="yipeta">Yipetas / SUV</button>
+      </div>
+
+      <!-- ── CATEGORY LABEL: AUTOS ── -->
+      <div class="category-label reveal" data-cat="auto">
+        <i class="fas fa-car"></i>
+        <span>Autos</span>
+        <span class="cat-price-tag">Desde $45 / día</span>
+      </div>
+
+      <div class="vehicles-grid" id="vehiclesGrid">
+
+        <!-- Kia K5 2018 -->
+        <div class="vehicle-card reveal" data-category="auto">
+          <div class="card-img-wrap">
+            <img src="images/2018_kia_k5.jpeg" alt="Kia K5 2018"
+              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=600&q=80'"
+              loading="lazy" />
+            <div class="card-overlay">
+              <a href="https://wa.me/18299059714?text=Hola,%20me%20interesa%20rentar%20el%20Kia%20K5%202018" target="_blank" class="btn-overlay">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-header-row">
+              <h3>Kia K5 2018</h3>
+              <span class="card-category">Auto</span>
+            </div>
+            <div class="card-specs">
+              <span><i class="fas fa-gear"></i> Automático</span>
+              <span><i class="fas fa-snowflake"></i> A/C</span>
+              <span><i class="fas fa-gas-pump"></i> Gasolina</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-amount">$45</span>
+                <span class="price-unit">/día</span>
+              </div>
+              <a href="https://wa.me/18299059714?text=Hola,%20quiero%20rentar%20el%20Kia%20K5%202018" target="_blank" class="btn-card-wa">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hyundai Elantra 2020 Rojo — BADGE REMOVED -->
+        <div class="vehicle-card reveal" data-category="auto">
+          <div class="card-img-wrap">
+            <img src="images/Hyundai_Elantra_2020Red.jpeg" alt="Hyundai Elantra 2020 Rojo"
+              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1617469767053-d3b523a0b982?auto=format&fit=crop&w=600&q=80'"
+              loading="lazy" />
+            <div class="card-overlay">
+              <a href="https://wa.me/18299059714?text=Hola,%20me%20interesa%20rentar%20el%20Hyundai%20Elantra%202020" target="_blank" class="btn-overlay">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-header-row">
+              <h3>Hyundai Elantra 2020</h3>
+              <span class="card-category">Auto</span>
+            </div>
+            <div class="card-specs">
+              <span><i class="fas fa-gear"></i> Automático</span>
+              <span><i class="fas fa-snowflake"></i> A/C</span>
+              <span><i class="fas fa-gas-pump"></i> Gasolina</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-amount">$45</span>
+                <span class="price-unit">/día</span>
+              </div>
+              <a href="https://wa.me/18299059714?text=Hola,%20quiero%20rentar%20el%20Hyundai%20Elantra%202020" target="_blank" class="btn-card-wa">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hyundai Elantra 2020 Blanco -->
+        <div class="vehicle-card reveal" data-category="auto">
+          <div class="card-img-wrap">
+            <img src="images/Hyundai_elantra_2020White.jpeg" alt="Hyundai Elantra 2020 Blanco"
+              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1617469767053-d3b523a0b982?auto=format&fit=crop&w=600&q=80'"
+              loading="lazy" />
+            <div class="card-overlay">
+              <a href="https://wa.me/18299059714?text=Hola,%20me%20interesa%20rentar%20el%20Hyundai%20Elantra%202020%20Blanco" target="_blank" class="btn-overlay">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-header-row">
+              <h3>Hyundai Elantra 2020</h3>
+              <span class="card-category">Auto</span>
+            </div>
+            <div class="card-specs">
+              <span><i class="fas fa-gear"></i> Automático</span>
+              <span><i class="fas fa-snowflake"></i> A/C</span>
+              <span><i class="fas fa-gas-pump"></i> Gasolina</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-amount">$45</span>
+                <span class="price-unit">/día</span>
+              </div>
+              <a href="https://wa.me/18299059714?text=Hola,%20quiero%20rentar%20el%20Hyundai%20Elantra%202020%20Blanco" target="_blank" class="btn-card-wa">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hyundai Elantra 2018 Negro — BADGE REMOVED -->
+        <div class="vehicle-card reveal" data-category="auto">
+          <div class="card-img-wrap">
+            <img src="images/Hyundai_Elantra_2018Black.jpeg" alt="Hyundai Elantra 2018 Negro"
+              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80'"
+              loading="lazy" />
+            <div class="card-overlay">
+              <a href="https://wa.me/18299059714?text=Hola,%20me%20interesa%20rentar%20el%20Hyundai%20Elantra%202018" target="_blank" class="btn-overlay">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-header-row">
+              <h3>Hyundai Elantra 2018</h3>
+              <span class="card-category">Auto</span>
+            </div>
+            <div class="card-specs">
+              <span><i class="fas fa-gear"></i> Automático</span>
+              <span><i class="fas fa-snowflake"></i> A/C</span>
+              <span><i class="fas fa-gas-pump"></i> Gasolina</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-amount">$45</span>
+                <span class="price-unit">/día</span>
+              </div>
+              <a href="https://wa.me/18299059714?text=Hola,%20quiero%20rentar%20el%20Hyundai%20Elantra%202018" target="_blank" class="btn-card-wa">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hyundai Elantra 2018 Blanco -->
+        <div class="vehicle-card reveal" data-category="auto">
+          <div class="card-img-wrap">
+            <img src="images/Hyundai_Elantra_2018White.jpeg" alt="Hyundai Elantra 2018 Blanco"
+              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80'"
+              loading="lazy" />
+            <div class="card-overlay">
+              <a href="https://wa.me/18299059714?text=Hola,%20me%20interesa%20rentar%20el%20Hyundai%20Elantra%202018%20Blanco" target="_blank" class="btn-overlay">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-header-row">
+              <h3>Hyundai Elantra 2018</h3>
+              <span class="card-category">Auto</span>
+            </div>
+            <div class="card-specs">
+              <span><i class="fas fa-gear"></i> Automático</span>
+              <span><i class="fas fa-snowflake"></i> A/C</span>
+              <span><i class="fas fa-gas-pump"></i> Gasolina</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-amount">$45</span>
+                <span class="price-unit">/día</span>
+              </div>
+              <a href="https://wa.me/18299059714?text=Hola,%20quiero%20rentar%20el%20Hyundai%20Elantra%202018%20Blanco" target="_blank" class="btn-card-wa">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── CATEGORY LABEL: YIPETAS ── -->
+        <div class="category-label-inline reveal" data-cat="yipeta">
+          <i class="fas fa-truck-monster"></i>
+          <span>Yipetas / SUV</span>
+          <span class="cat-price-tag">Desde $75 / día</span>
+        </div>
+
+        <!-- Honda CRV 2022 -->
+        <div class="vehicle-card reveal" data-category="yipeta">
+          <div class="card-badge card-badge--gold">Yipeta</div>
+          <div class="card-img-wrap">
+            <img src="images/Honda_CRV_2022.jpeg" alt="Honda CRV 2022"
+              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80'"
+              loading="lazy" />
+            <div class="card-overlay">
+              <a href="https://wa.me/18299059714?text=Hola,%20me%20interesa%20rentar%20el%20Honda%20CRV%202022" target="_blank" class="btn-overlay">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-header-row">
+              <h3>Honda CRV 2022</h3>
+              <span class="card-category">Yipeta</span>
+            </div>
+            <div class="card-specs">
+              <span><i class="fas fa-gear"></i> Automático</span>
+              <span><i class="fas fa-snowflake"></i> A/C</span>
+              <span><i class="fas fa-gas-pump"></i> Gasolina</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-amount">$75</span>
+                <span class="price-unit">/día</span>
+              </div>
+              <a href="https://wa.me/18299059714?text=Hola,%20quiero%20rentar%20el%20Honda%20CRV%202022" target="_blank" class="btn-card-wa">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hyundai Santa Fe 2022 — PRICE UPDATED TO $80, badge updated to Premium · 3 filas -->
+        <div class="vehicle-card reveal" data-category="yipeta">
+          <div class="card-badge card-badge--gold">Premium · 3 filas</div>
+          <div class="card-img-wrap">
+            <img src="images/2022_Santa_Fe.jpeg" alt="Hyundai Santa Fe 2022"
+              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80'"
+              loading="lazy" />
+            <div class="card-overlay">
+              <a href="https://wa.me/18299059714?text=Hola,%20me%20interesa%20rentar%20el%20Hyundai%20Santa%20Fe%202022" target="_blank" class="btn-overlay">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-header-row">
+              <h3>Hyundai Santa Fe 2022</h3>
+              <span class="card-category">Yipeta</span>
+            </div>
+            <div class="card-specs">
+              <span><i class="fas fa-gear"></i> Automático</span>
+              <span><i class="fas fa-snowflake"></i> A/C</span>
+              <span><i class="fas fa-users"></i> 3 filas</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-amount">$80</span>
+                <span class="price-unit">/día</span>
+              </div>
+              <a href="https://wa.me/18299059714?text=Hola,%20quiero%20rentar%20el%20Hyundai%20Santa%20Fe%202022" target="_blank" class="btn-card-wa">
+                <i class="fab fa-whatsapp"></i> Reservar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Santa Fe SEL 2021 REMOVED -->
+
+      </div><!-- /.vehicles-grid -->
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="about" id="nosotros">
+    <div class="container about-grid">
+      <div class="about-visual reveal">
+        <div class="about-img-main">
+          <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=700&q=80" alt="AA Rent Car servicio" />
+        </div>
+        <div class="about-badge-float">
+          <img src="images/logo.png" alt="AA Rent Car" class="about-logo-badge" />
+        </div>
+      </div>
+      <div class="about-content reveal">
+        <span class="section-tag">Quiénes Somos</span>
+        <h2 class="section-title">La empresa de renta<br /><span class="text-gold">en la que puedes confiar</span></h2>
+        <p>En <strong>AA Rent Car</strong> brindamos el mejor servicio de renta de vehículos en La Romana con altos estándares de calidad, higiene y seguridad. Cada auto y yipeta de nuestra flota es mantenido al día para garantizar tu tranquilidad.</p>
+        <p>Nuestro equipo está comprometido con ofrecerte una experiencia sin complicaciones desde la reserva hasta la devolución del vehículo.</p>
+        <ul class="about-list">
+          <li><i class="fas fa-circle-check"></i> Flota moderna: autos y yipetas disponibles</li>
+          <li><i class="fas fa-circle-check"></i> Proceso de reserva sencillo por WhatsApp</li>
+          <li><i class="fas fa-circle-check"></i> Documentación clara y transparente</li>
+          <li><i class="fas fa-circle-check"></i> Seguros incluidos en cada renta</li>
+          <li><i class="fas fa-circle-check"></i> Ubicados en La Romana, RD</li>
+        </ul>
+        <a href="https://wa.me/18299059714" target="_blank" class="btn btn-primary">
+          <i class="fab fa-whatsapp"></i> Hablar con un agente
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BAND ===================== -->
+  <section class="cta-band reveal">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>¿Listo para reservar tu vehículo?</h2>
+        <p>Escríbenos por WhatsApp y te atendemos de inmediato.</p>
+      </div>
+      <a href="https://wa.me/18299059714?text=Hola,%20me%20interesa%20rentar%20un%20vehículo" target="_blank" class="btn btn-primary btn-lg">
+        <i class="fab fa-whatsapp"></i> Reservar por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact-section" id="contacto">
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <span class="section-tag">Contacto</span>
+        <h2 class="section-title">Estamos aquí<br /><span class="text-gold">para ayudarte</span></h2>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <strong>Teléfono / WhatsApp</strong>
+              <a href="tel:+18299059714">829-905-9714</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-location-dot"></i></div>
+            <div>
+              <strong>Dirección</strong>
+              <span>Calle José R. Paulino #11, La Romana, RD</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <strong>Horario de atención</strong>
+              <span>Lunes – Domingo: 7:00 AM – 10:00 PM</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Correo electrónico</strong>
+              <a href="mailto:info@aarentcar.com">info@aarentcar.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal">
+        <form class="contact-form" id="contactForm">
+          <h3>Envíanos un mensaje</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Nombre completo</label>
+              <input type="text" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <label>Teléfono</label>
+              <input type="tel" placeholder="Tu número" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Vehículo de interés</label>
+            <select>
+              <option value="">Selecciona un vehículo</option>
+              <optgroup label="🚗 Autos – $45/día">
+                <option>Kia K5 2018 – $45/día</option>
+                <option>Hyundai Elantra 2020 – $45/día</option>
+                <option>Hyundai Elantra 2018 – $45/día</option>
+              </optgroup>
+              <optgroup label="🚙 Yipetas / SUV">
+                <option>Honda CRV 2022 – $75/día</option>
+                <option>Hyundai Santa Fe 2022 (Premium · 3 filas) – $80/día</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Mensaje</label>
+            <textarea placeholder="¿En qué podemos ayudarte?" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fab fa-whatsapp"></i> Enviar por WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#inicio" class="footer-logo-link">
+            <img src="images/logo.png" alt="AA Rent Car" class="footer-logo-img" />
+          </a>
+          <p>Calidad, higiene y seguridad en cada vehículo. Tu confianza es nuestro compromiso.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/18299059714" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#vehiculos">Vehículos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Horarios</h4>
+          <ul class="footer-schedule">
+            <li><span>Lun – Vie</span><span>7:00 AM – 10:00 PM</span></li>
+            <li><span>Sábado</span><span>7:00 AM – 9:00 PM</span></li>
+            <li><span>Domingo</span><span>8:00 AM – 8:00 PM</span></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto Rápido</h4>
+          <ul class="footer-contact-list">
+            <li><i class="fas fa-phone"></i> <a href="tel:+18299059714">829-905-9714</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@aarentcar.com">info@aarentcar.com</a></li>
+            <li><i class="fas fa-location-dot"></i> Calle José R. Paulino #11,<br />La Romana, RD</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 AA Rent Car. Todos los derechos reservados.</p>
+        <p>Diseñado con <i class="fas fa-heart" style="color:#F4B400"></i> para nuestros clientes</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/18299059714" target="_blank" class="float-wa" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="float-wa-label">¿Necesitas ayuda?</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
