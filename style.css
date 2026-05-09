@@ -162,6 +162,17 @@ img { display: block; width: 100%; }
   color: var(--gold);
 }
 
+.nav-brand-icon--white {
+  background: var(--white) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
+.nav-logo-img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  display: block;
+}
+
 /* ---- PHONE in navbar ---- */
 .nav-phone {
   display: inline-flex;
@@ -524,17 +535,6 @@ img { display: block; width: 100%; }
 .about-img-main { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); }
 .about-img-main img { height: 440px; object-fit: cover; }
 
-.about-badge-float {
-  position: absolute;
-  top: 24px;
-  right: -24px;
-  background: var(--white);
-  border-radius: var(--radius-md);
-  padding: 12px;
-  box-shadow: var(--shadow-md);
-  border: 2px solid var(--gold);
-}
-.about-logo-badge { width: 120px; height: auto; object-fit: contain; }
 
 .about-content .section-tag { display: inline-block; }
 .about-content .section-title { text-align: left; }
@@ -653,7 +653,6 @@ img { display: block; width: 100%; }
 }
 @media (max-width: 900px) {
   .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 48px; }
-  .about-badge-float { right: -10px; }
 }
 @media (max-width: 768px) {
   .hero {
@@ -677,7 +676,6 @@ img { display: block; width: 100%; }
   .stat-divider { display: none; }
   .stat { padding: 0 10px; }
   .vehicles-grid { grid-template-columns: 1fr; }
-  .about-badge-float { position: static; margin-top: 16px; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-brand { order: -1; }
   .form-row { grid-template-columns: 1fr; }
