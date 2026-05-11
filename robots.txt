@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.aarentcarrd.com/sitemap.xml
